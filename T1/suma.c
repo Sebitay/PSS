@@ -20,4 +20,3 @@ Bcd sumaBcd(Bcd x, Bcd y){
     return 0xffffffffffffffff;
   }
 }
-&^waK8dtjs6k@BW 
