@@ -7,28 +7,28 @@
 void eliminar(char *str, char *pat) {
     char *change = str;
     unsigned long patlen = strlen(pat);
-    int letter = 0;
+    int contador = 0;
     while(*str){
         *change = *str;
         change++;
         if(*str == *pat){
-            letter++;
+            contador++;
             pat++;
-            if(letter == patlen){
-                change -= letter;
-                pat -= letter;
-                letter = 0;
+            if(contador == patlen){
+                change -= contador;
+                pat -= contador;
+                contador = 0;
             }
         }else{
-            pat -= letter;
-            letter = 0;
+            pat -= contador;
+            contador = 0;
             if(*str == *pat){
-                letter++;
+                contador++;
                 pat++;
-                if(letter == patlen){
-                    change -= letter;
-                    pat -= letter;
-                    letter = 0;
+                if(contador == patlen){
+                    change -= contador;
+                    pat -= contador;
+                    contador = 0;
                 }
             }
         }
@@ -52,18 +52,24 @@ char *eliminados(char *str, char *pat) {
                 pat -= letter;
                 letter = 0;
             }
-            str++;
         }else{
-            if(letter==0){
-                str++;
-            }
             pat -= letter;
             letter = 0;
+            if(*str == *pat){
+                letter++;
+                pat++;
+                if(letter == patlen){
+                    count++;
+                    pat -= letter;
+                    letter = 0;
+                }
+            }
         }
+        str++;
     }
     str -= strlength;
     pat -= letter;
-    char* ptr = (char*) malloc(strlength - count * patlen);
+    char* ptr = (char*) malloc(strlength - patlen*count + 1);
     letter = 0;
     count = 0;
     while(*str){
@@ -77,18 +83,16 @@ char *eliminados(char *str, char *pat) {
             str++;
         }else{
             if(letter==0){
-                ptr += count;
                 *ptr = *str;
-                ptr -= count;
+                ptr++;
                 count++;
                 str++;
             }
             pat -= letter;
             str -= letter;
             while(letter>0){
-                ptr += count;
                 *ptr = *str;
-                ptr -= count;
+                ptr++;
                 count++;
                 str++;
                 letter--;
@@ -96,13 +100,13 @@ char *eliminados(char *str, char *pat) {
         }
     }
     str -= letter;
-    while(letter>0){
-        ptr += count;
+    while(letter+1>0){
         *ptr = *str;
-        ptr -= count;
+        ptr++;
         count++;
         str++;
         letter--;
     }
+    ptr -= count;
     return ptr;
 }
