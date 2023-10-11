@@ -1,0 +1,10 @@
+casa:edificacion construida para ser habitada :
+alimento:sustancia ingerida por un ser vivo   :
+lastimar:herir o hacer dano                   :
+antidoto:medicamento contra un veneno         :
+significado:sentido de una palabra o frase    :
+tranquilo:quieto, sosegado, pacifico          :
+evaporar:convertir un liquido en vapor        :
+nueve:ocho mas uno                            :
+elegante:dotado de gracia, nobleza y sencillez:
+cascar:quebrantar o hender algo quebradizo    :

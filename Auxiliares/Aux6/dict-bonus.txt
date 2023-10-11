@@ -1,0 +1,36 @@
+casa:edificacion construida para ser habitada:
+lluvia:condensacion del vapor de agua contenida en las nubes:
+embarcacion:todo tipo de artilugio capaz de navegar sobre o bajo el agua:
+alimento:sustancia ingerida por un ser vivo:
+contrabando:introduccion en un pais o exportacion de mercancias sin pagar los derechos de aduana a que estan sometidas legalmente:
+canguro:mamifero marsupial, hervibor, propio de australia e islas adyacentes el cual se traslada a saltos:
+reunion:accion y efecto de reunir:
+altavoz:aparato electroacustico que transforma la corriente electrica en sonido:
+azucar:sustancia cristalina perteneciente al grupo quimico de los hidratos de carbono, de sabor dulce y de color blanco en estado puro:
+mecanica:parte de la fisica que trata del equilibrio y del movimiento de los cuerpos sometidos a cualquier fuerza:
+lastimar:herir o hacer dano:
+antidoto:medicamento contra un veneno:
+significado:sentido de una palabra o frase:
+tranquilo:quieto, sosegado, pacifico:
+letra:cada uno de los signos graficos que componen el alfabeto de un idioma:
+pintar:representar algo en una superficie con lineas y colores:
+evaporar:convertir un liquido en vapor:
+pantalla:lamina que se sujeta delante o alrededor de un foco luminoso artificial, para que la luz no moleste a los ojos:
+nervio:conjunto de fibras nerviosas en forma de cordon blanquecino que conducen impulsos entre el sistema nervioso central y otras partes del cuerpo:
+abeja:insecto himenoptero, de unos quince milimetros de largo, de color pardo negruzco y vello rojizo, que vive en colonias y produce cera y miel:
+nueve:ocho mas uno:
+elegante:dotado de gracia, nobleza y sencillez:
+cascar:quebrantar o hender algo quebradizo:
+huerto:terreno de corta extension, generalmente cercado, en que se cultivan verduras, legumbres y arboles frutales:
+tinto:dicho de un color rojo oscuro:
+cocodrilo:reptil del orden de los emidosaurios, de cuatro a cinco metros de largo, color verdoso, cubierto de escamas durisimas, grandes mandibulas y cola comprimida:
+objetivo:perteneciente o relativo al objeto en si mismo, con independencia de la propia manera de pensar o sentir:
+empacar:empaquetar, encajonar:
+plastico:dicho de un material que mediante una compresion puede cambiar de forma y conservar esta de modo permanente, a diferencia de los cuerpos elasticos:
+ambulancia:vehiculo destinado al transporte de heridos y enfermos, y de elementos de cura y auxilio:
+descifrar:declarar lo que esta escrito en cifra o en caracteres desconocidos, sirviendose de clave dispuesta para ello, o sin clave, por conjeturas y reglas criticas:
+yeso:sulfato de calcio hidratado, de color blanco, usado en construccion y en escultura por su propiedad de endurecerse rapidamente al mezclarse con agua:
+tienda:toldo que se pone en algunas embarcaciones para defenderse del sol o de la lluvia:
+manija:abrazadera de metal con que se asegura algo:
+oxigeno:elemento quimico gaseoso de numero atomico 8, incoloro, inodoro, insipido y muy reactivo, presente en todos los seres vivos:
+navaja:cuchillo cuya hoja puede doblarse sobre el mango para que el filo quede guardado entre las dos cachas o en una hendidura a proposito:
